@@ -48,7 +48,7 @@ mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.Create" -Dmongodb
 - Run the `Read` class:
 
 ```sh
-mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.Read" -Dmongodb.uri="mongodb+srv://USERNAME:PASSWORD@cluster0-abcde.mongodb.net/test?w=majority"
+mvn compile exec:java -Dexec.mainClass="com.mongodb.quickstart.Main" -Dmongodb.uri="mongodb+srv://USERNAME:PASSWORD@cluster0-abcde.mongodb.net/test?w=majority"
 ```
 
 - Run the `Update` class:
