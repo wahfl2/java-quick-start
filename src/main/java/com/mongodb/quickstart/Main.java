@@ -187,9 +187,15 @@ public class Main {
 
             prettyPrint("Results:\n", Colors.GREEN, Flags.UNDERLINE);
 
+            int i = 0;
             for (Document document : result) {
                 System.out.println(document.toJson());
+                ++i;
             }
+
+            System.out.println();
+            prettyPrint("Number of returned documents: ", Colors.DEFAULT);
+            prettyPrint(i + "\n", Colors.GREEN, Flags.UNDERLINE);
         }
     }
 
